@@ -101,7 +101,7 @@ ol {
   margin-bottom: 5px;
 }
 
-.search-form__checkbox:checked+.search-form__pseudo-checkbox::after {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: "";
   display: inline-block;
   height: 15px;
